@@ -1,0 +1,47 @@
+{
+  "name": "Pocket Touch",
+  "subtitle": "Legacy iOS emulation in your pocket.",
+  "description": "Pocket Touch is an unofficial port of Light Touch for Mac, under its license. It isn’t made or endorsed by Light Touch’s developer.",
+  "iconURL": "https://github.com/landonjsmith/pocketTouch/releases/download/v1.0/icon.png",
+  "tintColor": "#1C1C1E",
+  "nsfw": false,
+  "featuredApps": [
+    "app.pockettouch.PocketTouch"
+  ],
+  "apps": [
+    {
+      "name": "Pocket Touch",
+      "bundleIdentifier": "app.pockettouch.PocketTouch",
+      "developerName": "Pocket Touch",
+      "subtitle": "Run iPhone OS 1 to iOS 3 on your iPhone.",
+      "localizedDescription": "Emulates the original iPod touch, iPhone and iPad. Comes with an iPod touch (2nd generation) on iOS 3.1.3 ready to go.\n\nFor full speed, turn on JIT: in AltStore, go to My Apps, press and hold Pocket Touch, and tap Enable JIT. Without it, Pocket Touch runs in slow mode.\n\nAn unofficial port of Light Touch for Mac.",
+      "iconURL": "https://github.com/landonjsmith/pocketTouch/releases/download/v1.0/icon.png",
+      "tintColor": "#1C1C1E",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.0",
+          "buildVersion": "1",
+          "date": "2026-10-20",
+          "localizedDescription": "First release.",
+          "downloadURL": "https://github.com/landonjsmith/pocketTouch/releases/download/v1.0/PocketTouch.ipa",
+          "size": 441462540,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "get-task-allow"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "Attach to Local Network lets the emulated device reach computers and printers on your network.",
+          "NSLocationWhenInUseUsageDescription": "The Carrier panel can place the emulated iPhone’s GPS where you are.",
+          "NSMotionUsageDescription": "Tilt with iPhone moves the emulated device’s accelerometer as you tilt your iPhone.",
+          "NSPhotoLibraryAddUsageDescription": "Screenshots and screen recordings of the emulated device are saved to your photo library."
+        }
+      }
+    }
+  ],
+  "news": []
+}
